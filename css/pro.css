@@ -1,0 +1,349 @@
+/* Start Global =====================*/
+
+* {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border
+}
+
+body {
+	background-color:#FFF;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-style:italic;
+	margin:0;
+	padding:0
+}
+
+.container {
+	width:950px;
+	margin:auto
+}
+
+ul {
+	padding:0;
+	margin:0;
+	list-style:none;
+	display:inline-block
+}
+
+h2 {
+	color:#7b0000;
+}
+
+/* End Global */
+
+/* Start Navbar ===========================*/
+
+.navbar {
+	display:block;
+	height:0
+}
+
+.logo {
+	float:left;
+	width:40%;
+}
+
+.logo img {
+	width:70%;
+	margin-left:50px;
+	margin-top:-73px
+}
+
+.links {
+	float:left;
+	width:60%;
+	font-size:26px;
+	margin-top:32px
+}
+
+.links li {
+	display:inline-block;
+	margin-left:15px;
+	color:#440606
+}
+
+/* End navbar */
+
+/* Start Header ==============================*/
+.header {
+	background-image:url('../images/header.jpg');
+	background-size:cover;
+	height:660px;
+	width:100%;
+	position:absolute;
+	opacity: 0.8;
+	z-index: -1
+}
+
+.first {
+	margin-top:200px;
+	color:#000;
+	text-align:center;
+	font-weight:bold;
+	font-size:20px;
+}
+
+.first h1 {
+	font-size:55px;
+}
+
+.first p {
+	line-height:2.5;
+	margin:0 30px;
+}
+
+	.first button {
+	padding:14px 60px;
+	margin-top:36px;
+	font-weight:bold;
+	font-style:italic;
+	font-size:30px;
+	color:#7b0000;
+	background-color:#FFF;
+	cursor:pointer;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+/* End Header */
+
+/* Start Secondpart ================================*/
+
+.secondpart {
+	background-image:url('../images/part2.jpg');
+	margin:150px 35px 40px 45px;
+	height:350px;
+	text-align:center
+}
+
+.secondpart ul {
+	list-style:none
+}
+.secondpart ul li {
+	width:15px;
+	height:15px;
+	border:3px solid #FFF;
+	display:inline-block;
+	margin:300px 7px 0 0;
+	border-radius:15px;
+	cursor:pointer
+}
+.secondpart ul li.active,.secondpart ul li:hover {
+	background-color:#FFF
+}
+
+/* End Secondpart */
+
+/* Start About ===================================*/
+
+.about {
+
+}
+
+.aboutcon {
+	display: inline-block;
+}
+
+.about .aboutimg {
+	width:50%;
+	height:350px;
+	float:left
+}
+
+.about img {
+	width:70%;
+	height:100%;
+	float:right;
+	margin-top:50px
+}
+.about .aboutp {
+	width:50%;
+	height:350px;
+	float:left
+}
+
+.about h2 {	
+	width:70%;
+	height:10%;
+	font-weight:bold ;
+	background-color:#e9d4ca;
+	padding:25px 0 0 48px; 
+}
+
+.about p  {
+	width:70%;
+	height:90%;
+	padding:48px;
+	line-height:1.6;
+	font-weight:bold;
+	background-color:#e9d4ca;
+	margin-top:-20px
+}
+
+/* End About */
+
+/* Start Features ================================*/
+
+.con {
+	text-align:center;
+	margin:110px auto 0 ;
+	width:50%;
+}
+
+.con q {
+	line-height:1.9;
+	font-weight:bold;
+}
+/* End Features */
+
+/* Start Best =====================================*/
+.product {
+	display:inline-block;
+	margin-top:50px;
+}
+.prop {
+	float:left;
+	width:50%;
+	height:300px;
+	padding:25px;
+	background-color:#e9d4ca;
+	font-weight:bold;
+}
+
+.proimg {
+	float:left;
+	width:50%;height:300px;
+	background-color:black
+}
+.proimg img {
+	height:100%;
+	width:100%;opacity:0.4;
+}
+
+/* End Best */
+
+/* start product2 =================================*/
+
+.product2 {
+	margin-top:60px;
+	display:inline-block;
+}
+
+.product2 img {
+	width:445px;
+	float:left;
+	padding-left:5px;
+	height:445px
+}
+
+/* End product2 */
+
+/* Star Visit */
+
+.visit {
+	text-align:center;
+	margin:70px auto  0;
+	display: inline-block;
+}
+.visit p{
+	float:left;
+	font-weight:bold;
+	font-size:30px;
+	width:70%;
+	padding-left:240px
+}
+.visit button {
+	width: 30%;
+	float:left;
+ 	padding:20px 50px;
+ 	background-color:#e9d4ca;
+ 	font-style:italic;
+ 	font-weight:bold;
+ 	font-size:30px;
+	font-family: "Times New Roman", Georgia, Serif;
+	color:#7b0000;
+	cursor:pointer;
+ }
+/* End Visit */
+
+.product3 {
+	display:inline-block;margin-top:50px;width:100%
+}
+.product3 img {
+	width:25%;padding: 0;float:left;
+	margin:0;
+}
+
+/* Start contactus Form =============================*/
+
+.contactus {
+	height:350px;
+	background-color:#1d1e21;
+	width:100%;display:inline-block;
+}
+
+.contactus .logo {
+	float:left;
+	width:17%;
+	margin-top:100px;margin-right:-80px
+}
+
+.logo img {
+
+}
+.contact {
+	float:left;
+	width:33.33333%;
+}
+
+.contact input{
+	width:280px;
+	margin-bottom:10px;
+	padding:4px;
+	background-color:#4c5458
+}
+
+.contact textarea {
+	width:280px;
+	height:150px;
+	background-color:#4c5458
+}
+
+.references {
+	float:left;
+	width:33.33333%;
+}
+.references a {
+	float:left;
+	width:33.33333%;
+	padding-top:15px;
+	color:#4c5458;
+	font-weight:bold;
+	font-size:20px
+}
+
+.followus {
+	float:left;
+	width:33.33333%;
+}
+
+.followus img {
+	float:left;	
+	width:25%;
+	padding-top:15px
+ }
+
+ .references span {
+ 	margin-top:200px;
+ 	display:block;
+ 	color:#4c5458;
+ }
+
+/* End Contactus Form */
+
+/* start my framework =============================*/
+
+.clearfix {
+	clear:both
+}
+
+/* end my framework */
